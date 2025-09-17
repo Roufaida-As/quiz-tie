@@ -1,0 +1,21 @@
+[build]
+  command = "npm run build"
+  publish = "quiz-tie/dist"
+  
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "quiz-tie/index.html"
+  status = 200
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
+
+[[headers]]
+  for = "*.mjs"
+  [headers.values]
+    Content-Type = "application/javascript"
