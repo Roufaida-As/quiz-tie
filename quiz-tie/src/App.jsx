@@ -307,7 +307,7 @@ export default function ESIQuiz() {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-5xl font-bold mb-2 text-[#05a9a2] transform hover:scale-105 transition-transform">
-            Take It Easy Quiz
+            Take It Esi Quiz
           </h1>
           <p className="text-xl mt-3 text-gray-600">
             Vérités et Mensonges sur la vie étudiante à l'ESI
