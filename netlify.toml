@@ -1,13 +1,14 @@
 [build]
+  base = "quiz-tie"
   command = "npm run build"
-  publish = "quiz-tie/dist"
+  publish = "dist"
   
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
 
 [[redirects]]
   from = "/*"
-  to = "quiz-tie/index.html"
+  to = "/index.html"
   status = 200
 
 [[headers]]
